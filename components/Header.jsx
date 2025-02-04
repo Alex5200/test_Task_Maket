@@ -13,7 +13,6 @@ const Header = ({ style = {} }) => {
   }, []);
 
   const headerStyle = {
-    width: '100%',
     minWidth: '320px',
     height: '58px',
     padding: '0 20px',
@@ -56,6 +55,7 @@ const Header = ({ style = {} }) => {
     textDecoration: 'none',
     transition: 'opacity 0.3s ease',
     cursor: 'pointer',
+    marginLeft: '20px'
   };
 
   const navLinkHoverStyle = {

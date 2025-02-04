@@ -1,21 +1,24 @@
 import React from 'react';
+import IconList from './img/icon-list.png'
+import TowerImg1 from './img/towerImg1.png'
+import TowerImg2 from './img/towerImg2.png'
 
 const FeaturesSection = ({ style = {} }) => {
   const features = [
     {
-      icon: 'https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/group-35.png',
+      icon: IconList,
       text: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor'
     },
     {
-      icon: 'https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/group-35-2.png',
+      icon: IconList,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
     },
     {
-      icon: 'https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/group-35-3.png',
+      icon: IconList,
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
     },
     {
-      icon: 'https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/group-35-4.png',
+      icon: IconList,
       text: 'Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor'
     }
   ];
@@ -109,7 +112,7 @@ const FeaturesSection = ({ style = {} }) => {
     <section style={sectionStyle}>
       <div style={contentContainerStyle}>
         <img 
-          src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/3-1.png" 
+          src={TowerImg1}
           alt="Feature visual 1" 
           style={imageStyle} 
         />
@@ -135,7 +138,7 @@ const FeaturesSection = ({ style = {} }) => {
           </button>
         </div>
         <img 
-          src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/1-9.png" 
+          src={TowerImg2} 
           alt="Feature visual 2" 
           style={imageStyle} 
         />

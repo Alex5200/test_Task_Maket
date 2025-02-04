@@ -1,5 +1,6 @@
 import React from 'react';
-
+import ChekImg from './img/chekImg.png'
+import Human from './img/humanImg.png'
 const HeroSection = ({ style }) => {
   const buttonStyles = {
     padding: '16px 32px',
@@ -16,7 +17,6 @@ const HeroSection = ({ style }) => {
     transition: 'background-color 0.3s',
     alignSelf: 'flex-start',
     marginTop: '20px',
-    padding: '50px',
     width: '191px',
     height: 'auto',
   };
@@ -102,7 +102,7 @@ const HeroSection = ({ style }) => {
           }}>
             <div style={priceItemStyles}>
               <img 
-                src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/tick-sso.png" 
+                src={ChekImg}
                 alt="Check" 
                 style={{ width: '39px', height: '37px', marginRight: '17px' }}
               />
@@ -116,7 +116,7 @@ const HeroSection = ({ style }) => {
 
             <div style={priceItemStyles}>
               <img 
-                src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/tick-sso-2.png" 
+                src={ChekImg}
                 alt="Check" 
                 style={{ width: '39px', height: '37px', marginRight: '17px' }}
               />
@@ -128,7 +128,7 @@ const HeroSection = ({ style }) => {
 
             <div style={priceItemStyles}>
               <img 
-                src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/tick-sso-3.png" 
+                src={ChekImg}
                 alt="Check" 
                 style={{ width: '39px', height: '37px', marginRight: '17px' }}
               />
@@ -151,7 +151,7 @@ const HeroSection = ({ style }) => {
         </div>
 
         <img 
-          src="https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/photo-20.png" 
+          src={Human}
           alt="Building" 
           style={{ width: '50%', height: 'auto', borderRadius: '4px' }}
         />

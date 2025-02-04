@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './testtask-react/src/components/Header';
-import HeroSection from './testtask-react/src/components/HeroSection';
-import FeaturesSection from './testtask-react/src/components/FeaturesSection';
-import FormSection from './testtask-react/src/components/FormSection';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import FeaturesSection from './components/FeaturesSection';
+import FormSection from './components/FormSection';
 import Footer from './Footer';
 
 const Layout = () => {

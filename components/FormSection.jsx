@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import TowerImg2 from './img/towerImg2.png'
 
 const FormSection = ({ style = {} }) => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,6 @@ const FormSection = ({ style = {} }) => {
   const containerStyle = {
     width: '100%',
     minWidth: '320px',
-    maxWidth: '1920px',
     padding: '100px 0',
     backgroundColor: '#282829',
     display: 'flex',
@@ -36,7 +36,7 @@ const FormSection = ({ style = {} }) => {
   const contentWrapperStyle = {
     position: 'relative',
     width: '100%',
-    maxWidth: '80%',
+    maxWidth: '1920px',
     display: 'flex',
     height: '600px',
     backgroundColor: '#ffffff',
@@ -168,7 +168,7 @@ const FormSection = ({ style = {} }) => {
           width: '50%',
           height: '100%',
           borderRadius:' 0 30px 30px 0',
-          backgroundImage: 'url(https://dashboard.codeparrot.ai/api/image/Z6HvXTRi7Jes3829/3-1.png)',
+          backgroundImage: `url(${TowerImg2})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }} />
